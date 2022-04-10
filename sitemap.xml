@@ -2,10 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ldvipg.github.io/post/git-note/</loc>
+    <lastmod>2022-04-10T12:27:36+08:00</lastmod>
+  </url><url>
+    <loc>https://ldvipg.github.io/post/</loc>
+    <lastmod>2022-04-10T12:27:36+08:00</lastmod>
+  </url><url>
+    <loc>https://ldvipg.github.io/</loc>
+    <lastmod>2022-04-10T12:27:36+08:00</lastmod>
+  </url><url>
+    <loc>https://ldvipg.github.io/post/first/</loc>
+    <lastmod>2022-04-10T11:51:43+08:00</lastmod>
+  </url><url>
     <loc>https://ldvipg.github.io/categories/</loc>
   </url><url>
     <loc>https://ldvipg.github.io/tags/</loc>
-  </url><url>
-    <loc>https://ldvipg.github.io/</loc>
   </url>
 </urlset>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+
+
+ <html class="no-js"> 
+<head>
+    <title>git常用命令笔记 &middot; 浅水王八</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="zh-CH" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.96.0" />
+
+    
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://ldvipg.github.io/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+    
+    <div class="off-canvas">
+    <figure class="avatar">
+        <img src="https://ldvipg.github.io/img/avatar.jpg" title="">
+    </figure>
+    <div class="bio">
+        
+        
+    </div>
+    <nav>
+
+        
+
+        
+
+        <ul>
+            <li><a target="_blank" href="https://ldvipg.github.io/index.xml">RSS feed</a></li>
+        </ul>
+
+        
+
+        <ul>
+        
+        </ul>        
+    </nav>
+</div>
+
+
+    <div class="site-wrapper">
+        <header>
+	<div class="h-wrap">
+		
+		<h1 class="title"><a href="https://ldvipg.github.io/">浅水王八</a></h1>
+		
+		<a class="menu-icon" title="Menu"><span class="lines"></span></a>
+	</div>
+</header>
+        
+        <section class="single-wrap">
+            <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
+                <div class="feat">
+                    <h5 class="page-date">
+                    <time datetime="" itemprop="datePublished">
+                    10. April 2022
+                    </time>
+                    </h5>
+                </div>
+                <h1 class="page-title" itemprop="name headline">git常用命令笔记</h1>
+                <div itemprop="articleBody">
+                    <h2 id="新建">新建</h2>
+<pre tabindex="0"><code>git init	初始化仓库
+</code></pre><pre tabindex="0"><code>git clone	拷贝一份远程仓库，也就是下载一个项目。
+</code></pre><h2 id="提交修改----------------">提交修改 &mdash;&mdash;&mdash;&mdash;&mdash;</h2>
+<pre tabindex="0"><code>git add	添加文件到仓库
+</code></pre><pre tabindex="0"><code>git status	查看仓库当前的状态，显示有变更的文件。
+</code></pre><pre tabindex="0"><code>git diff	比较文件的不同，即暂存区和工作区的差异。
+</code></pre><pre tabindex="0"><code>git commit	提交暂存区到本地仓库。
+</code></pre><pre tabindex="0"><code>git reset	回退版本。
+</code></pre><pre tabindex="0"><code>git rm	删除工作区文件。
+</code></pre><pre tabindex="0"><code>git mv	移动或重命名工作区文件。
+</code></pre><h2 id="远程操作">远程操作</h2>
+<pre tabindex="0"><code>git remote	远程仓库操作
+</code></pre><pre tabindex="0"><code>git fetch	从远程获取代码库
+</code></pre><pre tabindex="0"><code>git pull	下载远程代码并合并
+</code></pre><pre tabindex="0"><code>git push	上传远程代码并合并
+</code></pre><h2 id="分支">分支</h2>
+<pre tabindex="0"><code>git branch (branchname)   创建分支
+</code></pre><pre tabindex="0"><code>git checkout (branchname)    切换分支命令
+</code></pre><pre tabindex="0"><code>git merge 分支合并
+</code></pre><pre tabindex="0"><code>git branch 列出分支
+</code></pre><pre tabindex="0"><code>git branch -d (branchname) 删除分支
+</code></pre><pre tabindex="0"><code>git merge &lt;branchname&gt; 合并到当前分支
+</code></pre><h2 id="查看提交历史">查看提交历史</h2>
+<pre tabindex="0"><code>git log - 查看历史提交记录。
+</code></pre><pre tabindex="0"><code>git blame &lt;file&gt; - 以列表形式查看指定文件的历史修改记录。
+</code></pre><h2 id="标签">标签</h2>
+<pre tabindex="0"><code>git tag -a &lt;tag name&gt; 打上标签 
+</code></pre><pre tabindex="0"><code>git tag -a v0.9 85fc7e7   追加标签
+</code></pre><pre tabindex="0"><code>git tag 显示所有标签
+</code></pre><pre tabindex="0"><code>git tag -a &lt;tagname&gt; -m &#34;runoob.com标签&#34; 指定标签信息命令
+</code></pre><pre tabindex="0"><code>git tag -s &lt;tagname&gt; -m &#34;runoob.com标签&#34; PGP签名标签命令：
+</code></pre>
+                </div>
+                <div class="feat share">
+                    <a href="//twitter.com/share" class="popup">
+                        <span class="icon-twitter"></span>
+                    </a>
+                </div>
+                
+                
+
+                
+                
+                    <a rel="prev" href="https://ldvipg.github.io/post/first/" id="prev">
+                        &larr; <span class="nav-title nav-title-prev"></span>
+                    </a>
+                
+            </article>
+        </section>
+
+        <footer>
+	
+</footer>
+    </div>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ldvipg.github.io/js/main.js"></script>
+
+
+
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
